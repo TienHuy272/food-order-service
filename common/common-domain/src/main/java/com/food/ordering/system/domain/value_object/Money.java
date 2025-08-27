@@ -1,5 +1,7 @@
 package com.food.ordering.system.domain.value_object;
 
+import lombok.Getter;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Objects;
