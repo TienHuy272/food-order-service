@@ -6,6 +6,6 @@ import com.food.ordering.system.order.service.domain.value_object.TrackingId;
 import java.util.Optional;
 
 public interface OrderRepository {
-    Optional<Order> save(Order order);
+    Order save(Order order);
     Optional<Order> findByTrackingId(TrackingId trackingId);
 }
